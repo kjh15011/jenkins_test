@@ -8,5 +8,12 @@
     <artifactId>demo-maven</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <configuration>
+        <archive>
+            <manifest>
+                <mainClass>HelloWorld</mainClass>
+            </manifest>
+        </archive>
+    </configuration>
 
 </project>
